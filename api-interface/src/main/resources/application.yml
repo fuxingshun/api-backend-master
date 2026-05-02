@@ -1,0 +1,9 @@
+# 公共配置文件
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+api:
+  client:
+    access-key: ${API_CLIENT_ACCESS_KEY:demo-access-key}
+    secret-key: ${API_CLIENT_SECRET_KEY:change-me}
